@@ -13,6 +13,7 @@ pub enum TokenKind {
 }
 
 pub struct Token {
+pub:
     kind   TokenKind
     lexem  string
     value  ?string
